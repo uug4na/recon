@@ -1,6 +1,6 @@
 import argparse
-from scanner.scanner import Scanner
-from scanner.utils import help
+from scanner import Scanner
+from utils import help
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Scanner')

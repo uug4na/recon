@@ -1,10 +1,10 @@
-from .commands import run_command
+from commands import run_command
 import os
 
 class Scanner:
     def __init__(self, domain):
         self.domain = domain
-        self.target_dir = f"../targets/{domain}"
+        self.target_dir = f"../../targets/{domain}"
 
     def setup_directory(self):
         if not os.path.exists(self.target_dir):
